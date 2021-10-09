@@ -1,9 +1,10 @@
 import React from 'react'
+import Formulario from './components/Formulario';
 // import Eventos from './components/Eventos';
 // import Parrafo from './components/Parrafo'
 // import Variables from './components/Variables';
 // import Contador from './components/Contador';
-import Listas from "./components/Listas";
+//import Listas from "./components/Listas";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       {/* <Parrafo/>
       <Variables/>
       <Eventos/>
-      <Contador/> */}
-      <Listas/>
+      <Contador/>
+      <Listas/> */}
+      <Formulario/>
     </div>
   );
 }
