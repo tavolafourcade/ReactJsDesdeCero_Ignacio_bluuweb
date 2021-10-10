@@ -8,7 +8,7 @@ import Formulario from './components/Formulario';
 
 function App() {
   return (
-    <div>
+    <div className='container mt-5'>
       <h1>Hola Mundo</h1>
       {/* <Parrafo/>
       <Variables/>
