@@ -17,8 +17,8 @@ const Formulario = () => {
         }
         setlistado([
             ...listado, {
-                fruta,
-                descripcion
+                nombreFruta: fruta,
+                nombreDescripcion: descripcion
             }
         ])
         console.log('procesando datos: '+  fruta + ' ' + descripcion)
@@ -47,7 +47,7 @@ const Formulario = () => {
                  <h2>Listado ingresado</h2>
                  <ul>
                     {
-                        listado.map((e, index) => <li key={index}>{e.fruta} {e.descripcion}</li>)
+                        listado.map((e, index) => <li key={index}>{e.nombreFruta} - {e.nombreDescripcion}</li>)
                     }
                  </ul>
             </form>
